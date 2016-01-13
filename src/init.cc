@@ -32,7 +32,7 @@ extern "C" void init(Local<Object> target) {
   ImgProc::Init(target);
   StereoBM::Init(target);
   StereoSGBM::Init(target);
-  StereoGC::Init(target);
+  // StereoGC::Init(target);
 
 #if CV_MAJOR_VERSION >= 2 && CV_MINOR_VERSION >=4
   BackgroundSubtractorWrap::Init(target);

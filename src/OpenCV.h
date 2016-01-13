@@ -18,6 +18,7 @@
 #include <node_buffer.h>
 #include <opencv/cv.h>
 #include <opencv/highgui.h>
+#include <opencv2/opencv.hpp>
 #include <string.h>
 #include <nan.h>
 
